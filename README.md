@@ -35,7 +35,7 @@ It combines **multimodal vision models**, **semantic reasoning**, and **prompt f
 
 #### Initial Screen (auto switches with GitHub theme)
 
-<picture>
+<picture align="center">
   <source media="(prefers-color-scheme: dark)"  srcset="assets/ui-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="assets/ui-light.png">
   <img src="assets/ui-light.png" alt="Initial Screen" width="720">
