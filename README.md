@@ -35,11 +35,11 @@ It combines **multimodal vision models**, **semantic reasoning**, and **prompt f
 
 #### Initial Screen (auto switches with GitHub theme)
 
-<p align="center">
+<picture align="center">
   <source media="(prefers-color-scheme: dark)"  srcset="assets/ui-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="assets/ui-light.png">
   <img src="assets/ui-light.png" alt="Initial Screen" width="720">
-</p>
+</picture>
 
 ## 🧪 Testing
 
@@ -71,9 +71,9 @@ npx playwright test --headed  # E2E tests
 	npm run dev
 
 #### Generated Summary Page
-<p align="center">
+<picture>
   <img src="assets/summary-result.png" alt="Generated Summary Page" width="720">
-</p>
+</picture>
 
 
 ### 🧱 Project Structure
