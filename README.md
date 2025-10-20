@@ -1,6 +1,6 @@
-# 🪶 Conflux — AI-Generated Whiteboard Summary
+# 🪶 AI-Generated Whiteboard Summary
 
-Conflux is an **AI-powered visual understanding tool** that turns hand-drawn whiteboards into structured summaries ready for Confluence or any workspace.  
+Tihs is an **AI-powered visual understanding tool** that turns hand-drawn whiteboards into structured summaries ready for Confluence or any workspace.  
 It combines **multimodal vision models**, **semantic reasoning**, and **prompt fusion** to extract insights, structure ideas, and generate clean, editable documentation.
 
 ### 🧠 Core AI Technologies
