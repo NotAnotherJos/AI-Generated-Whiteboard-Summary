@@ -73,7 +73,6 @@ npx playwright test --headed  # E2E tests
 #### Generated Summary Page
 <p align="center">
   <img src="assets/summary-result.png" alt="Generated Summary Page" width="720">
-  <br><em>AI-generated structured summary — ready to publish to Confluence</em>
 </p>
 
 
