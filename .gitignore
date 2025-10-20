@@ -1,0 +1,43 @@
+node_modules/
+.env
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+.idea/
+.cursor/
+
+# Environment and credentials
+
+.env.example
+supabase/storage_policies.sql
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+coverage/
+playwright-report/
+test-results/
+public/images/
+public/icons/
+
+
+# Docker and Compose
+docker-compose.yml
+Dockerfile*
+*.log
+
+# Test data
+forge-frontend/e2e/token.json
+forge-frontend/e2e/images/
+forge-frontend/e2e/utils/gmail.js
+
+# Supabase and Drizzle metadata
+drizzle/meta/
+supabase/
+forge-frontend/e2e/credentials.json

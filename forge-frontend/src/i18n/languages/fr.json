@@ -1,0 +1,178 @@
+{
+  "app": {
+    "title": "- Image IA vers Page Confluence - ",
+    "description": "Téléchargez une image. L’IA l’analyse. Crée automatiquement une nouvelle page Confluence."
+  },
+  "main": {
+    "card_but": {
+      "retry": "Réessayer",
+      "publish": "Publier la page !",
+      "go": "Aller à la nouvelle page"
+    },
+    "upload": {
+      "title": "Étape 1 : Télécharger une image",
+      "description": "Sélectionnez un fichier image à télécharger.",
+      "content": "Cliquez pour sélectionner une image ou faites glisser le fichier ici\nPrend en charge BMP, JPG et PNG"
+    },
+    "loading": {
+      "title": "Chargement...",
+      "content": "chargement...\nveuillez patienter...",
+      "analyze": {
+        "title": "Étape 2 : Analyse...",
+        "description": "L’IA analyse vos images et génère le contenu...",
+        "content": "Analyse des images, veuillez patienter...\nCela peut prendre quelques secondes"
+      }
+    },
+    "edit": {
+      "title": "Étape 3 : Vérifier et créer la page",
+      "description": "Vérifiez et modifiez le contenu avant de créer la page.",
+      "page_title": "Titre de la page",
+      "content_title": "Contenu de la page",
+      "placeholder": "Page sans titre"
+    },
+    "successfully": {
+      "title": "Succès !",
+      "content": "La conversion de l'image a été effectuée avec succès. La page Confluence a été créée. Les données pertinentes ont été enregistrées dans l'historique."
+    },
+    "errors": {
+      "title": "Une erreur est survenue !"
+    }
+  },
+  "history": {
+    "title": "Historique utilisateur",
+    "description": "Cliquer sur un enregistrement permet de supprimer ou de créer la page à partir de cet enregistrement.",
+    "noUser": "utilisateur introuvable",
+    "loadFailed": "échec du chargement",
+    "deleteFailed": "échec de la suppression",
+    "empty": "Il n'y a pas encore d'historique. Essayez de télécharger une image !",
+    "model": "modèle",
+    "time": "heure",
+    "upload": "aller à la page de téléchargement",
+    "deleteAll": "supprimer tout l'historique",
+    "restore": "Restaurer",
+    "delete": "supprimer cet enregistrement",
+    "regenerate": "Régénérer",
+    "confirmDeleteAllTitle": "Confirmer la suppression de tout ?",
+    "confirmDeleteAllContent": "Cette opération supprimera définitivement tout l'historique et ne pourra pas être annulée.",
+    "confirmDeleteSingleTitle": "Êtes-vous sûr de vouloir supprimer cet enregistrement ?",
+    "confirmDeleteSingleContent": "Cette opération supprimera définitivement cet historique et ne pourra pas être restaurée.",
+    "recordCount": "Nombre d'enregistrements"
+  },
+  "toolbar": {
+    "title": "Barre d'outils",
+    "description": "Ici, vous pouvez modifier des détails tels que la vision, l'IA et le style du texte.",
+    "model": "Modèles d’IA pour l’analyse",
+    "prompt_type": "Type d’analyse pour différents scénarios",
+    "disabled": "La barre d’outils ne peut pas être modifiée pendant l’analyse d’image",
+    "prompt_types": {
+      "general": "Général",
+      "business": "Business",
+      "concise": "Concis",
+      "vivid": "Vif",
+      "scientific": "Scientifique"
+    },
+    "prompt": "Entrez ici votre prompt personnalisé",
+    "prompt_placeholder": "Ex : Analyser l'image",
+    "edit": "Modifier le contenu avant la publication",
+    "auto_clear": "Si la page est créée avec succès, l’historique sera automatiquement effacé",
+    "show_history": "Ouvrir le panneau Historique",
+    "reset": "Utiliser les paramètres par défaut"
+  },
+  "theme": {
+    "title": "Thème",
+    "default": "Espace",
+    "theme_1": "Mer",
+    "theme_2": "Nuages",
+    "theme_3": "Daltonien rouge-vert"
+  },
+  "language": "Langue",
+  "help": {
+    "title": "Centre d'aide",
+    "intro": "Bienvenue sur AIwhiteboard — un outil intelligent qui transforme les images de tableaux blancs en contenu Confluence structuré.",
+    "tutorial": "Commencer le tutoriel",
+    "sections": [
+      {
+        "title": "Introduction de l'App",
+        "content": "Cette application enverra vos images téléchargées vers des services d'IA externes et les analysera selon vos paramètres, générera du texte, et les publiera facilement en tant que pages Confluence en un clic.\nActuellement, nos modèles incluent GPT et Gemini. Concernant la confidentialité des utilisateurs, nous n'avons besoin de collecter que votre ID Atlassian. De plus, vous pouvez librement supprimer vos données d'images téléchargées."
+      },
+      {
+        "title": "Fonctionnalités de l'App",
+        "content": [
+          {
+            "title": "1. Télécharger une Image",
+            "description": "Cliquez sur la zone de téléchargement ou faites glisser une image dedans. Formats pris en charge : JPG, PNG, BMP."
+          },
+          {
+            "title": "2. Analyse Automatique par IA",
+            "description": "Une fois téléchargée, l'image est automatiquement analysée. L'IA extrait les informations clés."
+          },
+          {
+            "title": "3. Générer une Page Confluence",
+            "description": "Le contenu extrait est utilisé pour créer automatiquement une nouvelle page Confluence."
+          },
+          {
+            "title": "4. Personnaliser votre Expérience",
+            "description": "Vous pouvez changer le thème et changer la langue de l'interface à tout moment."
+          },
+          {
+            "title": "5. Enregistrements d'Historique",
+            "description": "Trouvez tous vos résultats générés précédemment dans l'historique. Vous pouvez facilement restaurer, régénérer ou supprimer des enregistrements à tout moment."
+          }
+        ]
+      },
+      {
+        "title": "Équipe de Développement",
+        "content": "Nous sommes :\nYuqing Lin\nShouli Zheng\nShuai Shao\nQixin Yang\nXiyu Sheng\nJocelyn Yang\n\nMerci d'utiliser cette application !"
+      }
+    ]
+  },
+  "common": {
+    "cancel": "annuler",
+    "confirm": "confirmer",
+    "next": "Suivant",
+    "back": "Précédent",
+    "close": "Fermer",
+    "finish": "Terminer",
+    "skip": "Passer"
+  },
+  "tips": {
+    "restoreTip": "Utiliser directement le résultat historique",
+    "regenerateTip": "Laisser l'IA analyser cette image avec les paramètres actuels"
+  },
+  "tutorial": {
+    "steps": [
+      {
+        "title": "Téléchargez votre Image",
+        "content": "Ceci est la zone de téléchargement. Cliquez ici ou glissez-déposez votre image de tableau blanc pour commencer. Nous supportons les formats JPG, PNG et BMP."
+      },
+      {
+        "title": "Voir l'Historique",
+        "content": "Cliquez sur ce bouton pour voir vos résultats d'analyse précédents. Vous pouvez restaurer, régénérer ou supprimer n'importe quel enregistrement historique."
+      },
+      {
+        "title": "Choisir le Modèle IA",
+        "content": "Sélectionnez quel modèle IA utiliser pour l'analyse. Différents modèles peuvent fournir différents styles d'analyse et niveaux de précision."
+      },
+      {
+        "title": "Sélectionner le Type de Prompt",
+        "content": "Choisissez le type d'analyse que vous voulez. Différents types de prompt extrairont différents types d'informations de votre image."
+      },
+      {
+        "title": "Prompt Personnalisé",
+        "content": "Entrez ici vos propres instructions personnalisées pour dire à l'IA exactement ce que vous voulez extraire ou sur quoi vous concentrer dans l'image."
+      },
+      {
+        "title": "Mode d'Édition",
+        "content": "Activez ceci pour activer le mode d'édition, vous permettant de modifier le contenu généré par l'IA avant de créer votre page Confluence."
+      },
+      {
+        "title": "Nettoyage Automatique",
+        "content": "Quand activé, ceci effacera automatiquement les résultats après avoir créé avec succès une page Confluence, se préparant pour votre prochain téléchargement."
+      },
+      {
+        "title": "Réinitialiser les Paramètres",
+        "content": "Cliquez sur ce bouton pour réinitialiser tous les paramètres à leurs valeurs par défaut si vous voulez recommencer."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS "idx_images_user_id_created_at" ON "images" ("user_id","created_at");

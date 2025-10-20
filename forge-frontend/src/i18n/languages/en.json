@@ -1,0 +1,178 @@
+{
+  "app": {
+    "title": "- AI-Powered Image to Confluence Page - ",
+    "description": "Upload an image. AI analyze. Automatically create a new Confluence page."
+  },
+  "main": {
+    "card_but": {
+      "retry": "Retry",
+      "publish": "Publish Page!",
+      "go": "Go new Page"
+    },
+    "upload": {
+      "title": "Step 1: Upload Image",
+      "description": "Select an image file to upload.",
+      "content": "Click to select image or drag file here\nSupports BMP, JPG and PNG"
+    },
+    "loading": {
+      "title": "Loading...",
+      "content": "loading...\nplease waiting...",
+      "analyze": {
+        "title": "Step 2: Analyzing...",
+        "description": "AI is analyzing your images and generating content...",
+        "content": "Analyzing images, please waiting...\nThis may take a few seconds"
+      }
+    },
+    "edit": {
+      "title": "Step 3: Review and Create Page",
+      "description": "Review and edit the content before creating the page.",
+      "page_title": "Page Title",
+      "content_title": "Page Content",
+      "placeholder": "Untitled Page"
+    },
+    "successfully": {
+      "title": "Successfully!",
+      "content": "This image conversion page has been successfully completed. Confluence page has been created. The relevant data has been saved to history"
+    },
+    "errors": {
+      "title": "An error occurred!"
+    }
+  },
+  "history": {
+    "title": "User History",
+    "description": "Clicking a record can delete or create the page based on that record.",
+    "noUser": "can't find user",
+    "loadFailed": "load Failed",
+    "deleteFailed": "delete Failed",
+    "empty": "There is no history yet. Try uploading a picture!",
+    "model": "model",
+    "time": "time",
+    "upload": "go to upload page",
+    "deleteAll": "delete all history records",
+    "restore": "Restore",
+    "delete": "delete this record",
+    "regenerate": "Regenerate",
+    "confirmDeleteAllTitle": "Confirm to delete all?",
+    "confirmDeleteAllContent": "This operation will permanently delete all history and cannot be recovered.",
+    "confirmDeleteSingleTitle": "Are you sure to delete this record?",
+    "confirmDeleteSingleContent": "This operation will permanently delete this history and cannot be restored.",
+    "recordCount": "Record Count"
+  },
+  "toolbar": {
+    "title": "Toolbar",
+    "description": "Here can modify detailed, such as vision, AI and text style.",
+    "model": "AI models for analysis",
+    "prompt_type": "Analysis type for different scenarios",
+    "disabled": "The toolbar cannot be modified during image analysis",
+    "prompt_types": {
+      "general": "General",
+      "business": "Business",
+      "concise": "Concise",
+      "vivid": "Vivid",
+      "scientific": "Scientific"
+    },
+    "prompt": "Enter your custom prompt here",
+    "prompt_placeholder": "Eg. Analyze the image",
+    "edit": "Editing content before publish",
+    "auto_clear": "If the page is created successfully, the history will be automatically cleared",
+    "show_history": "Open the History panel",
+    "reset": "Use default settings"
+  },
+  "theme": {
+    "title": "Theme",
+    "default": "Space",
+    "theme_1": "Sea",
+    "theme_2": "Clouds",
+    "theme_3":"R-G Colorblind"
+  },
+  "language": "Lang",
+  "help": {
+    "title": "Help",
+    "intro": "Welcome to AIwhiteboard – a smart tool to turn whiteboard images into organized Confluence content.",
+    "tutorial":"Start tutorial",
+    "sections": [
+      {
+        "title": "App Introduction",
+        "content": "This app will send your uploaded images to external AI services and analyze them according to your settings, generate text, and conveniently publish them as Confluence pages with one click.\nCurrently, our models include GPT and Gemini. Regarding user privacy, we only need to collect your Atlassian ID. Additionally, you can freely delete your uploaded image data."
+      },
+      {
+        "title": "App Features",
+        "content": [
+          {
+            "title": "1. Upload an Image",
+            "description": "Click the upload box or drag an image into it. Supported formats: JPG, PNG, BMP."
+          },
+          {
+            "title": "2. Automatic AI Analysis", 
+            "description": "Once uploaded, the image is automatically analyzed. AI extracts key information."
+          },
+          {
+            "title": "3. Generate Confluence Page",
+            "description": "The extracted content is used to automatically create a new Confluence page."
+          },
+          {
+            "title": "4. Customize Your Experience",
+            "description": "You can change the theme and switch interface language at any time."
+          },
+          {
+            "title": "5. History Records",
+            "description": "Find all your previously generated results in the history. You can conveniently restore, regenerate, or delete records at any time."
+          }
+        ]
+      },
+      {
+        "title": "Development Team",
+        "content": "We are:\nYuqing Lin\nShouli Zheng\nShuai Shao\nQixin Yang\nXiyu Sheng\nJocelyn Yang\n\nThank you for using this app!"
+      }
+    ]
+  },
+  "common":{
+    "cancel": "cancel",
+    "confirm": "confirm",
+    "next": "Next",
+    "back": "Back",
+    "close": "Close",
+    "finish": "Finish",
+    "skip": "Skip"
+  },
+  "tips": {
+    "restoreTip": "Use the historical result directly",
+    "regenerateTip": "Let AI analyze this image again with current parameters"
+  },
+  "tutorial": {
+    "steps": [
+      {
+        "title": "Upload Your Image",
+        "content": "This is the upload area. Click here or drag and drop your whiteboard image to get started. We support JPG, PNG, and BMP formats."
+      },
+      {
+        "title": "View History",
+        "content": "Click this button to view your previous analysis results. You can restore, regenerate, or delete any historical record."
+      },
+      {
+        "title": "Choose AI Model",
+        "content": "Select which AI model to use for analysis. Different models may provide different analysis styles and accuracy levels."
+      },
+      {
+        "title": "Select Prompt Type",
+        "content": "Choose the type of analysis you want. Different prompt types will extract different kinds of information from your image."
+      },
+      {
+        "title": "Custom Prompt",
+        "content": "Enter your own custom instructions here to tell the AI exactly what you want to extract or focus on in the image."
+      },
+      {
+        "title": "Edit Mode",
+        "content": "Toggle this to enable edit mode, allowing you to modify the AI-generated content before creating your Confluence page."
+      },
+      {
+        "title": "Auto Clear",
+        "content": "When enabled, this will automatically clear the results after successfully creating a Confluence page, preparing for your next upload."
+      },
+      {
+        "title": "Reset Settings",
+        "content": "Click this button to reset all settings back to their default values if you want to start fresh."
+      }
+    ]
+  }
+}

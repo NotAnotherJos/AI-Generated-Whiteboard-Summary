@@ -1,0 +1,178 @@
+{
+  "app": {
+    "title": "- Immagine AI in Pagina Confluence - ",
+    "description": "Carica un'immagine. L'IA la analizza. Crea automaticamente una nuova pagina Confluence."
+  },
+  "main": {
+    "card_but": {
+      "retry": "Riprova",
+      "publish": "Pubblica pagina!",
+      "go": "Vai alla nuova pagina"
+    },
+    "upload": {
+      "title": "Passo 1: Carica Immagine",
+      "description": "Seleziona un file immagine da caricare.",
+      "content": "Clicca per selezionare un'immagine o trascina il file qui\nSupporta BMP, JPG e PNG"
+    },
+    "loading": {
+      "title": "Caricamento...",
+      "content": "Caricamento...\nAttendere prego...",
+      "analyze": {
+        "title": "Passo 2: Analisi...",
+        "description": "L'IA sta analizzando le tue immagini e generando contenuto...",
+        "content": "Analisi delle immagini in corso, attendere prego...\nPotrebbe richiedere alcuni secondi"
+      }
+    },
+    "edit": {
+      "title": "Passo 3: Rivedi e Crea Pagina",
+      "description": "Rivedi e modifica il contenuto prima di creare la pagina.",
+      "page_title": "Titolo della pagina",
+      "content_title": "Contenuto della pagina",
+      "placeholder": "Pagina senza titolo"
+    },
+    "successfully": {
+      "title": "Successo!",
+      "content": "La conversione dell'immagine è stata completata con successo. La pagina Confluence è stata creata. I dati rilevanti sono stati salvati nella cronologia."
+    },
+    "errors": {
+      "title": "Si è verificato un errore!"
+    }
+  },
+  "history": {
+    "title": "Cronologia Utente",
+    "description": "Cliccando su un record è possibile eliminare o creare la pagina da quel record.",
+    "noUser": "utente non trovato",
+    "loadFailed": "caricamento fallito",
+    "deleteFailed": "eliminazione fallita",
+    "empty": "Non c'è ancora cronologia. Prova a caricare un'immagine!",
+    "model": "modello",
+    "time": "ora",
+    "upload": "vai alla pagina di caricamento",
+    "deleteAll": "elimina tutta la cronologia",
+    "restore": "Ripristina",
+    "delete": "elimina questo record",
+    "regenerate": "Rigenera",
+    "confirmDeleteAllTitle": "Confermare l'eliminazione di tutti?",
+    "confirmDeleteAllContent": "Questa operazione eliminerà permanentemente tutta la cronologia e non potrà essere recuperata.",
+    "confirmDeleteSingleTitle": "Sei sicuro di voler eliminare questo record?",
+    "confirmDeleteSingleContent": "Questa operazione eliminerà permanentemente questa cronologia e non potrà essere recuperata.",
+    "recordCount": "Numero di record"
+  },
+  "toolbar": {
+    "title": "Barra degli strumenti",
+    "description": "Qui puoi modificare dettagli come visione, IA e stile del testo.",
+    "model": "Modelli IA per analisi",
+    "prompt_type": "Tipo di analisi per diversi scenari",
+    "disabled": "La barra degli strumenti non può essere modificata durante l'analisi delle immagini",
+    "prompt_types": {
+      "general": "Generale",
+      "business": "Business",
+      "concise": "Conciso",
+      "vivid": "Vivace",
+      "scientific": "Scientifico"
+    },
+    "prompt": "Inserisci qui il tuo prompt personalizzato",
+    "prompt_placeholder": "Es. Analizza l'immagine",
+    "edit": "Modifica contenuto prima della pubblicazione",
+    "auto_clear": "Se la pagina viene creata con successo, la cronologia verrà cancellata automaticamente",
+    "show_history": "Apri il pannello Cronologia",
+    "reset": "Usa impostazioni predefinite"
+  },
+  "theme": {
+    "title": "Tema",
+    "default": "Spazio",
+    "theme_1": "Mare",
+    "theme_2": "Nuvole",
+    "theme_3": "Daltonismo rosso-verde"
+  },
+  "language": "Lingua",
+  "help": {
+    "title": "Centro assistenza",
+    "intro": "Benvenuto in AIwhiteboard: uno strumento intelligente che trasforma le immagini della lavagna in contenuti ordinati per Confluence.",
+    "tutorial": "Inizia tutorial",
+    "sections": [
+      {
+        "title": "Introduzione dell'App",
+        "content": "Questa app invierà le tue immagini caricate a servizi AI esterni e le analizzerà secondo le tue impostazioni, genererà testo e le pubblicherà convenientemente come pagine Confluence con un solo clic.\nAttualmente, i nostri modelli includono GPT e Gemini. Riguardo alla privacy degli utenti, abbiamo bisogno solo di raccogliere il tuo ID Atlassian. Inoltre, puoi liberamente eliminare i tuoi dati delle immagini caricate."
+      },
+      {
+        "title": "Funzionalità dell'App",
+        "content": [
+          {
+            "title": "1. Carica un'Immagine",
+            "description": "Clicca sulla casella di caricamento o trascina un'immagine al suo interno. Formati supportati: JPG, PNG, BMP."
+          },
+          {
+            "title": "2. Analisi Automatica AI",
+            "description": "Una volta caricata, l'immagine viene automaticamente analizzata. L'AI estrae informazioni chiave."
+          },
+          {
+            "title": "3. Genera Pagina Confluence",
+            "description": "Il contenuto estratto viene utilizzato per creare automaticamente una nuova pagina Confluence."
+          },
+          {
+            "title": "4. Personalizza la tua Esperienza",
+            "description": "Puoi cambiare il tema e cambiare la lingua dell'interfaccia in qualsiasi momento."
+          },
+          {
+            "title": "5. Record della Cronologia",
+            "description": "Trova tutti i tuoi risultati generati precedentemente nella cronologia. Puoi convenientemente ripristinare, rigenerare o eliminare record in qualsiasi momento."
+          }
+        ]
+      },
+      {
+        "title": "Team di Sviluppo",
+        "content": "Noi siamo:\nYuqing Lin\nShouli Zheng\nShuai Shao\nQixin Yang\nXiyu Sheng\nJocelyn Yang\n\nGrazie per aver usato questa app!"
+      }
+    ]
+  },
+  "common": {
+    "cancel": "annulla",
+    "confirm": "conferma",
+    "next": "Avanti",
+    "back": "Indietro",
+    "close": "Chiudi",
+    "finish": "Fine",
+    "skip": "Salta"
+  },
+  "tips": {
+    "restoreTip": "Usa direttamente il risultato storico",
+    "regenerateTip": "Permetti all'IA di analizzare questa immagine con i parametri attuali"
+  },
+  "tutorial": {
+    "steps": [
+      {
+        "title": "Carica la tua Immagine",
+        "content": "Questa è l'area di caricamento. Clicca qui o trascina e rilascia la tua immagine della lavagna per iniziare. Supportiamo i formati JPG, PNG e BMP."
+      },
+      {
+        "title": "Visualizza Cronologia",
+        "content": "Clicca questo pulsante per vedere i tuoi risultati di analisi precedenti. Puoi ripristinare, rigenerare o eliminare qualsiasi record storico."
+      },
+      {
+        "title": "Scegli Modello IA",
+        "content": "Seleziona quale modello IA utilizzare per l'analisi. Modelli diversi possono fornire stili di analisi e livelli di accuratezza differenti."
+      },
+      {
+        "title": "Seleziona Tipo di Prompt",
+        "content": "Scegli il tipo di analisi che vuoi. Tipi di prompt diversi estrarranno diversi tipi di informazioni dalla tua immagine."
+      },
+      {
+        "title": "Prompt Personalizzato",
+        "content": "Inserisci qui le tue istruzioni personalizzate per dire all'IA esattamente cosa vuoi estrarre o su cosa concentrarti nell'immagine."
+      },
+      {
+        "title": "Modalità di Modifica",
+        "content": "Attiva questo per abilitare la modalità di modifica, permettendoti di modificare il contenuto generato dall'IA prima di creare la tua pagina Confluence."
+      },
+      {
+        "title": "Pulizia Automatica",
+        "content": "Quando abilitato, questo cancellerà automaticamente i risultati dopo aver creato con successo una pagina Confluence, preparandosi per il tuo prossimo caricamento."
+      },
+      {
+        "title": "Ripristina Impostazioni",
+        "content": "Clicca questo pulsante per ripristinare tutte le impostazioni ai loro valori predefiniti se vuoi ricominciare da capo."
+      }
+    ]
+  }
+}

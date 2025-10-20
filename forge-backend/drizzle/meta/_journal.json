@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1753016081704,
+      "tag": "0000_deep_vision",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1753159445443,
+      "tag": "0001_rare_famine",
+      "breakpoints": true
+    }
+  ]
+}

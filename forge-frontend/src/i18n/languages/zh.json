@@ -1,0 +1,178 @@
+{
+  "app": {
+    "title": "- AI 驱动的图片转 Confluence 页面 - ",
+    "description": "上传图片,AI 分析。自动创建新的 Confluence 页面。"
+  },
+  "main": {
+    "card_but": {
+      "retry": "重试",
+      "publish": "发布页面！",
+      "go": "前往新页面"
+    },
+    "upload": {
+      "title": "步骤 1：上传图片",
+      "description": "选择一张图片文件进行上传。",
+      "content": "点击选择图片或拖拽文件到此处\n支持 BMP、JPG 和 PNG 格式"
+    },
+    "loading": {
+      "title": "加载中...",
+      "content": "正在加载...\n请稍候...",
+      "analyze": {
+        "title": "步骤 2：分析中...",
+        "description": "AI 正在分析您的图片并生成内容...",
+        "content": "正在分析图片，请稍候...\n这可能需要几秒钟"
+      }
+    },
+    "edit": {
+      "title": "步骤 3：审核并创建页面",
+      "description": "请在创建页面前审核和编辑内容。",
+      "page_title": "页面标题",
+      "content_title": "页面内容",
+      "placeholder": "未命名页面"
+    },
+    "successfully": {
+      "title": "创建成功！",
+      "content": "该图片转换页面已成功创建。\nConfluence 页面已生成，相关数据已保存至历史记录。"
+    },
+    "errors": {
+      "title": "发生错误！"
+    }
+  },
+  "history": {
+    "title": "用户历史记录",
+    "description": "点击记录可以删除或基于该记录重新创建页面。",
+    "noUser": "找不到用户",
+    "loadFailed": "加载失败",
+    "deleteFailed": "删除失败",
+    "empty": "当前暂无历史记录。试试上传一张图片吧！",
+    "model": "模型",
+    "time": "时间",
+    "upload": "前往上传页面",
+    "deleteAll": "删除所有历史记录",
+    "restore": "恢复",
+    "delete": "删除该记录",
+    "regenerate": "重新生成",
+    "confirmDeleteAllTitle": "确认删除全部？",
+    "confirmDeleteAllContent": "此操作将永久删除所有历史记录，无法恢复。",
+    "recordCount": "记录数量",
+    "confirmDeleteSingleTitle": "确认删除此条？",
+    "confirmDeleteSingleContent": "此操作将永久删除此条历史，无法恢复。"
+  },
+  "toolbar": {
+    "title": "工具栏",
+    "description": "可在此修改详细内容，如视觉样式、AI 模型与文本风格。",
+    "model": "用于分析的 AI 模型",
+    "prompt_type": "针对不同场景的分析类型",
+    "disabled": "图像分析期间无法修改工具栏",
+    "prompt_types": {
+      "general": "通用分析",
+      "business": "商业分析",
+      "concise": "简洁分析",
+      "vivid": "生动分析",
+      "scientific": "科学分析"
+    },
+    "prompt": "在此输入你的自定义提示词",
+    "prompt_placeholder": "例子：分析这张图片",
+    "edit": "在发布前编辑内容",
+    "auto_clear": "页面成功创建后自动清除历史记录",
+    "show_history": "打开历史记录面板",
+    "reset": "恢复默认设置"
+  },
+  "theme": {
+    "title": "主题",
+    "default": "太空",
+    "theme_1": "海洋",
+    "theme_2": "云朵",
+    "theme_3": "红绿色盲友好"
+  },
+  "language": "语言",
+  "help": {
+    "title": "帮助中心",
+    "intro": "欢迎使用 AIwhiteboard —— 一款将白板图像转换为有序 Confluence 内容的智能工具。",
+    "tutorial": "开始教程",
+    "sections": [
+      {
+        "title": "应用介绍",
+        "content": "本应用会将您上传的图像发送到外部AI服务，根据您的设置进行分析，生成文本，并一键便捷地发布为Confluence页面。\n目前我们的模型包括GPT和Gemini。关于用户隐私，我们只需要收集您的Atlassian ID。此外，您可以随时删除上传的图像数据。"
+      },
+      {
+        "title": "应用功能",
+        "content": [
+          {
+            "title": "1. 上传图片",
+            "description": "点击上传框或将图片拖入其中。支持的格式：JPG、PNG、BMP。"
+          },
+          {
+            "title": "2. 自动 AI 分析",
+            "description": "上传后，系统会自动分析图像，AI 会提取关键信息。"
+          },
+          {
+            "title": "3. 生成 Confluence 页面",
+            "description": "提取的内容将用于自动创建一个新的 Confluence 页面。"
+          },
+          {
+            "title": "4. 个性化体验",
+            "description": "您可以随时更换主题或切换界面语言。"
+          },
+          {
+            "title": "5. 历史记录",
+            "description": "在历史记录中查找您所有生成的结果。您可以随时方便地恢复、重新生成或删除记录。"
+          }
+        ]
+      },
+      {
+        "title": "开发团队",
+        "content": "我们是：\n林钰清\n郑守立\n邵帅\n杨祺欣\n盛玺瑜\n杨筝傲星\n\n感谢您使用本应用！"
+      }
+    ]
+  },
+  "common":{
+    "cancel": "取消",
+    "confirm": "确认",
+    "next": "下一步",
+    "back": "上一步",
+    "close": "关闭",
+    "finish": "完成",
+    "skip": "跳过"
+  },
+  "tips": {
+    "restoreTip": "直接使用历史结果",
+    "regenerateTip": "让AI使用目前参数来分析这张图片"
+  },
+  "tutorial": {
+    "steps": [
+      {
+        "title": "上传您的图像",
+        "content": "这是上传区域。点击这里或拖放您的白板图像以开始使用。我们支持 JPG、PNG 和 BMP 格式。"
+      },
+      {
+        "title": "查看历史记录",
+        "content": "点击此按钮可查看您之前的分析结果。您可以恢复、重新生成或删除任何历史记录。"
+      },
+      {
+        "title": "选择 AI 模型",
+        "content": "选择用于分析的 AI 模型。不同的模型可能提供不同的分析风格和准确度水平。"
+      },
+      {
+        "title": "选择提示类型",
+        "content": "选择您想要的分析类型。不同的提示类型将从您的图像中提取不同类型的信息。"
+      },
+      {
+        "title": "自定义提示",
+        "content": "在这里输入您自己的自定义指令，告诉 AI 您希望从图像中提取或关注的确切内容。"
+      },
+      {
+        "title": "编辑模式",
+        "content": "切换此选项以启用编辑模式，允许您在创建 Confluence 页面之前修改 AI 生成的内容。"
+      },
+      {
+        "title": "自动清除",
+        "content": "启用时，这将在成功创建 Confluence 页面后自动清除结果，为您的下一次上传做准备。"
+      },
+      {
+        "title": "重置设置",
+        "content": "如果您想重新开始，点击此按钮将所有设置重置为默认值。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "app": {
+    "title": "- Imagen con IA a Página de Confluence - ",
+    "description": "Sube una imagen. La IA la analiza. Se crea automáticamente una nueva página de Confluence."
+  },
+  "main": {
+    "card_but": {
+      "retry": "Reintentar",
+      "publish": "¡Publicar página!",
+      "go": "Ir a la nueva página"
+    },
+    "upload": {
+      "title": "Paso 1: Subir imagen",
+      "description": "Selecciona un archivo de imagen para subir.",
+      "content": "Haz clic para seleccionar una imagen o arrastra el archivo aquí\nSoporta BMP, JPG y PNG"
+    },
+    "loading": {
+      "title": "Cargando...",
+      "content": "cargando...\npor favor espera...",
+      "analyze": {
+        "title": "Paso 2: Analizando...",
+        "description": "La IA está analizando tus imágenes y generando contenido...",
+        "content": "Analizando imágenes, por favor espera...\nEsto puede tomar unos segundos"
+      }
+    },
+    "edit": {
+      "title": "Paso 3: Revisar y crear página",
+      "description": "Revisa y edita el contenido antes de crear la página.",
+      "page_title": "Título de la página",
+      "content_title": "Contenido de la página",
+      "placeholder": "Página sin título"
+    },
+    "successfully": {
+      "title": "¡Éxito!",
+      "content": "La conversión de la imagen se ha completado con éxito. Se ha creado la página de Confluence. Los datos relevantes se han guardado en el historial."
+    },
+    "errors": {
+      "title": "¡Ocurrió un error!"
+    }
+  },
+  "history": {
+    "title": "Historial de usuario",
+    "description": "Al hacer clic en un registro puedes eliminarlo o crear la página basada en ese registro.",
+    "noUser": "no se encuentra el usuario",
+    "loadFailed": "falló la carga",
+    "deleteFailed": "falló la eliminación",
+    "empty": "Aún no hay historial. ¡Intenta subir una imagen!",
+    "model": "modelo",
+    "time": "hora",
+    "upload": "ir a la página de subida",
+    "deleteAll": "eliminar todo el historial",
+    "restore": "Restaurar",
+    "delete": "eliminar este registro",
+    "regenerate": "Regenerar",
+    "confirmDeleteAllTitle": "¿Confirmar eliminar todo?",
+    "confirmDeleteAllContent": "Esta operación eliminará permanentemente todo el historial y no se podrá recuperar.",
+    "confirmDeleteSingleTitle": "¿Estás seguro de eliminar este registro?",
+    "confirmDeleteSingleContent": "Esta operación eliminará permanentemente este historial y no se podrá restaurar.",
+    "recordCount": "Número de registros"
+  },
+  "toolbar": {
+    "title": "Barra de herramientas",
+    "description": "Aquí puedes modificar detalles como visión, IA y estilo de texto.",
+    "model": "Modelos de IA para análisis",
+    "prompt_type": "Tipo de análisis para diferentes escenarios",
+    "disabled": "La barra de herramientas no se puede modificar durante el análisis de imágenes",
+    "prompt_types": {
+      "general": "General",
+      "business": "Negocios",
+      "concise": "Conciso",
+      "vivid": "Vivo",
+      "scientific": "Científico"
+    },
+    "prompt": "Ingresa aquí tu prompt personalizado",
+    "prompt_placeholder": "Ej: Analiza la imagen",
+    "edit": "Editar el contenido antes de publicar",
+    "auto_clear": "Si la página se crea correctamente, el historial se borrará automáticamente",
+    "show_history": "Abrir el panel de historial",
+    "reset": "Usar configuración predeterminada"
+  },
+  "theme": {
+    "title": "Tema",
+    "default": "Espacio",
+    "theme_1": "Mar",
+    "theme_2": "Nubes",
+    "theme_3": "Daltónico rojo-verde"
+  },
+  "language": "Idioma",
+  "help": {
+    "title": "Centro de ayuda",
+    "intro": "Bienvenido a AIwhiteboard: una herramienta inteligente que convierte imágenes de pizarras en contenido ordenado para Confluence.",
+    "tutorial": "Iniciar tutorial",
+    "sections": [
+      {
+        "title": "Introducción de la App",
+        "content": "Esta aplicación enviará las imágenes que cargues a servicios de IA externos y las analizará según tu configuración, generará texto y las publicará convenientemente como páginas de Confluence con un solo clic.\nActualmente, nuestros modelos incluyen GPT y Gemini. En cuanto a la privacidad del usuario, solo necesitamos recopilar tu ID de Atlassian. Además, puedes eliminar libremente los datos de imágenes cargadas."
+      },
+      {
+        "title": "Funciones de la App",
+        "content": [
+          {
+            "title": "1. Subir una Imagen",
+            "description": "Haz clic en el cuadro de subida o arrastra una imagen dentro. Formatos admitidos: JPG, PNG, BMP."
+          },
+          {
+            "title": "2. Análisis Automático con IA",
+            "description": "Una vez cargada, la imagen se analiza automáticamente. La IA extrae información clave."
+          },
+          {
+            "title": "3. Generar Página de Confluence",
+            "description": "El contenido extraído se utiliza para crear automáticamente una nueva página de Confluence."
+          },
+          {
+            "title": "4. Personalizar tu Experiencia",
+            "description": "Puedes cambiar el tema y cambiar el idioma de la interfaz en cualquier momento."
+          },
+          {
+            "title": "5. Registros del Historial",
+            "description": "Encuentra todos tus resultados generados anteriormente en el historial. Puedes restaurar, regenerar o eliminar registros convenientemente en cualquier momento."
+          }
+        ]
+      },
+      {
+        "title": "Equipo de Desarrollo",
+        "content": "Somos:\nYuqing Lin\nShouli Zheng\nShuai Shao\nQixin Yang\nXiyu Sheng\nJocelyn Yang\n\n¡Gracias por usar esta aplicación!"
+      }
+    ]
+  },
+  "common": {
+    "cancel": "cancelar",
+    "confirm": "confirmar",
+    "next": "Siguiente",
+    "back": "Anterior",
+    "close": "Cerrar",
+    "finish": "Finalizar",
+    "skip": "Saltar"
+  },
+  "tips": {
+    "restoreTip": "Usar el resultado histórico directamente",
+    "regenerateTip": "Permitir que la IA analice esta imagen con los parámetros actuales"
+  },
+  "tutorial": {
+    "steps": [
+      {
+        "title": "Sube tu Imagen",
+        "content": "Esta es el área de subida. Haz clic aquí o arrastra y suelta tu imagen de pizarra para comenzar. Soportamos formatos JPG, PNG y BMP."
+      },
+      {
+        "title": "Ver Historial",
+        "content": "Haz clic en este botón para ver tus resultados de análisis anteriores. Puedes restaurar, regenerar o eliminar cualquier registro histórico."
+      },
+      {
+        "title": "Elegir Modelo de IA",
+        "content": "Selecciona qué modelo de IA usar para el análisis. Diferentes modelos pueden proporcionar diferentes estilos de análisis y niveles de precisión."
+      },
+      {
+        "title": "Seleccionar Tipo de Prompt",
+        "content": "Elige el tipo de análisis que deseas. Diferentes tipos de prompt extraerán diferentes tipos de información de tu imagen."
+      },
+      {
+        "title": "Prompt Personalizado",
+        "content": "Ingresa aquí tus propias instrucciones personalizadas para decirle a la IA exactamente qué quieres extraer o en qué enfocarte en la imagen."
+      },
+      {
+        "title": "Modo de Edición",
+        "content": "Activa esto para habilitar el modo de edición, permitiéndote modificar el contenido generado por IA antes de crear tu página de Confluence."
+      },
+      {
+        "title": "Limpieza Automática",
+        "content": "Cuando esté habilitado, esto limpiará automáticamente los resultados después de crear exitosamente una página de Confluence, preparándose para tu próxima subida."
+      },
+      {
+        "title": "Restablecer Configuración",
+        "content": "Haz clic en este botón para restablecer todas las configuraciones a sus valores predeterminados si quieres comenzar de nuevo."
+      }
+    ]
+  }
+}

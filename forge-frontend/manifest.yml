@@ -1,0 +1,36 @@
+modules:
+  confluence:spacePage:
+    - key: aiwhiteboard
+      resource: main
+      title: AIwhiteboard
+      route: ai-whiteboard
+      icon: resource:main;icons/logo.png
+resources:
+  - key: main
+    path: dist
+permissions:
+  content:
+    styles:
+      - 'unsafe-inline'
+    scripts:
+      - 'unsafe-inline'
+      - 'unsafe-eval'
+  scopes:
+    - write:page:confluence
+    - read:page:confluence
+    - read:confluence-user
+  external:
+    fetch:
+      client:
+        - https://otmymkspfdhgqhhvffag.supabase.co
+        - https://f.a2a.ing
+      backend:
+        - https://api.atlassian.com
+    images:
+      - https://otmymkspfdhgqhhvffag.supabase.co
+app:
+  runtime:
+    name: nodejs22.x
+    memoryMB: 256
+    architecture: arm64
+  id: ari:cloud:ecosystem::app/ef8d1a1d-588f-4b62-93cb-fe4543a90bba
